@@ -1,0 +1,13 @@
+%{"cowboy": {:hex, :cowboy, "1.1.2", "61ac29ea970389a88eca5a65601460162d370a70018afe6f949a29dca91f3bb0", [:rebar3], [{:cowlib, "~> 1.0.2", [hex: :cowlib, repo: "hexpm", optional: false]}, {:ranch, "~> 1.3.2", [hex: :ranch, repo: "hexpm", optional: false]}], "hexpm"},
+  "cowlib": {:hex, :cowlib, "1.0.2", "9d769a1d062c9c3ac753096f868ca121e2730b9a377de23dec0f7e08b1df84ee", [:make], [], "hexpm"},
+  "distillery": {:hex, :distillery, "1.5.2", "eec18b2d37b55b0bcb670cf2bcf64228ed38ce8b046bb30a9b636a6f5a4c0080", [:mix], [], "hexpm"},
+  "logger_multicast_backend": {:hex, :logger_multicast_backend, "0.2.2", "709da981b467591d88c64e7635e597e07984fda1850736cdf888a046999b1ee3", [:mix], [], "hexpm"},
+  "mime": {:hex, :mime, "1.2.0", "78adaa84832b3680de06f88f0997e3ead3b451a440d183d688085be2d709b534", [:mix], [], "hexpm"},
+  "nerves": {:hex, :nerves, "0.11.0", "631693062f2fdad92b2f9d34ac7c230bbda985276b5cd99e6beff7c1a0545326", [:mix], [{:distillery, "~> 1.4", [hex: :distillery, repo: "hexpm", optional: false]}], "hexpm"},
+  "nerves_cell": {:git, "https://github.com/ghitchens/nerves_cell.git", "b9c7ab0959348e14bc0a9373a5d3756f57b082fd", []},
+  "nerves_firmware": {:hex, :nerves_firmware, "0.4.0", "ac2fed915a7ca4bb69f567d9b742d77cffc3a6a56420ce65e870c8c34119b935", [:mix], [], "hexpm"},
+  "nerves_firmware_http": {:hex, :nerves_firmware_http, "0.4.1", "6d45916f7dcc2040b40ce47d753f9be436022c356f82e93723b4a30f065fa517", [:mix], [{:cowboy, "~> 1.0", [hex: :cowboy, repo: "hexpm", optional: false]}, {:exjsx, "~> 4.0", [hex: :exjsx, repo: "hexpm", optional: true]}, {:nerves_firmware, "~> 0.4", [hex: :nerves_firmware, repo: "hexpm", optional: false]}], "hexpm"},
+  "nerves_ssdp_server": {:hex, :nerves_ssdp_server, "0.2.2", "30988caf00a175285a238fff83feccb1f662b9ac4fcc68805b2e9cc01dcf1ad8", [:mix], [], "hexpm"},
+  "plug": {:hex, :plug, "1.5.0", "224b25b4039bedc1eac149fb52ed456770b9678bbf0349cdd810460e1e09195b", [:mix], [{:cowboy, "~> 1.0.1 or ~> 1.1 or ~> 2.1", [hex: :cowboy, repo: "hexpm", optional: true]}, {:mime, "~> 1.0", [hex: :mime, repo: "hexpm", optional: false]}], "hexpm"},
+  "poison": {:hex, :poison, "3.1.0", "d9eb636610e096f86f25d9a46f35a9facac35609a7591b3be3326e99a0484665", [:mix], [], "hexpm"},
+  "ranch": {:hex, :ranch, "1.3.2", "e4965a144dc9fbe70e5c077c65e73c57165416a901bd02ea899cfd95aa890986", [:rebar3], [], "hexpm"}}
